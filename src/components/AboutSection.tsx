@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const AboutSection: React.FC = () => {
   return (
@@ -13,22 +13,30 @@ const AboutSection: React.FC = () => {
             />
           </div>
           <div>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6 animate-in fade-in-50 slide-in-from-right-4 duration-700">About HealthCareX</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6 animate-in fade-in-50 slide-in-from-right-4 duration-700">
+              About PhysioCorporation
+            </h2>
             <div className="space-y-6">
               <div className="animate-in fade-in-50 slide-in-from-right-4 duration-700 delay-200">
-                <h3 className="text-xl font-semibold text-blue-600 mb-3">Our Mission</h3>
+                {/* <h3 className="text-xl font-semibold text-blue-600 mb-3">Our Mission</h3> */}
                 <p className="text-gray-600 leading-relaxed">
-                  To democratize access to quality healthcare by leveraging cutting-edge AI technology 
-                  that bridges the gap between patients and healthcare providers, making medical care 
-                  more efficient, accessible, and personalized.
-                </p>
-              </div>
-              <div className="animate-in fade-in-50 slide-in-from-right-4 duration-700 delay-500">
-                <h3 className="text-xl font-semibold text-teal-600 mb-3">Our Vision</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  We envision a world where every individual has immediate access to intelligent 
-                  healthcare solutions that not only diagnose and treat but also predict and prevent 
-                  health issues before they become critical.
+                  PhysioCorporation is a forward-thinking health and wellness
+                  organization committed to reshaping public health through
+                  proactive care, education, and community empowerment. Founded
+                  by a multidisciplinary team of directors, we bring together
+                  diverse expertise to champion the belief that “Prevention is
+                  better than cure.” Our integrated ecosystem is designed to
+                  make that vision a practical reality. We proudly serve
+                  individuals across all age groups—from children to senior
+                  citizens—and with a wide range of sectors including schools,
+                  residential societies, corporates, NGOs, and government
+                  bodies. Every program we offer is: <br/><br/> - ✅ Evidence-based and
+                  preventive <br/> - 🌍 Culturally sensitive and inclusive <br/> - 🧠
+                  Tailored to the unique needs of each community <br/><br/> Whether you're
+                  seeking wellness solutions for your workplace, educational
+                  institution, or neighborhood, PhysioCorporation delivers
+                  accessible, impactful services that promote lifelong health
+                  and well-being.,
                 </p>
               </div>
             </div>

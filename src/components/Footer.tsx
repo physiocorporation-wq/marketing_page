@@ -16,10 +16,10 @@ const Footer: React.FC = () => {
   ];
 
   const socialLinks = [
-    { icon: <Facebook className="h-5 w-5" />, href: '#' },
+    { icon: <Facebook className="h-5 w-5" />, href: 'https://www.facebook.com/share/1Ayi5gkU77/' },
     { icon: <Twitter className="h-5 w-5" />, href: '#' },
     { icon: <Linkedin className="h-5 w-5" />, href: '#' },
-    { icon: <Instagram className="h-5 w-5" />, href: '#' }
+    { icon: <Instagram className="h-5 w-5" />, href: 'https://www.instagram.com/physiocorporation?utm_source=qr&igsh=OWhhanI2azQ2OHFk' }
   ];
 
   return (
