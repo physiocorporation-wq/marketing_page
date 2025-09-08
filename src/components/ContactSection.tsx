@@ -5,7 +5,8 @@ const ContactSection: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: ''
+    message: '',
+    phone:""
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -20,7 +21,7 @@ const ContactSection: React.FC = () => {
     // Handle form submission
     console.log('Form submitted:', formData);
     alert('Thank you for your message! We\'ll get back to you soon.');
-    setFormData({ name: '', email: '', message: '' });
+    setFormData({ name: '', email: '', message: '',phone:'' });
   };
 
   return (
@@ -51,6 +52,21 @@ const ContactSection: React.FC = () => {
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300 hover:border-gray-400"
                   placeholder="Your full name"
+                />
+              </div>
+              <div>
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                  Your Mobile Number
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  required
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300 hover:border-gray-400"
+                  placeholder="Your Mobile Number"
                 />
               </div>
               <div>
@@ -98,8 +114,7 @@ const ContactSection: React.FC = () => {
             <div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">Get in touch</h3>
               <p className="text-gray-600 leading-relaxed mb-8">
-                We'd love to hear from you. Whether you're a healthcare provider, patient, 
-                or potential partner, our team is here to help.
+                Whether you're a school, society, corporate, or individual seeking preventive care, our team is ready to connect.
               </p>
             </div>
 
@@ -110,7 +125,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Email</h4>
-                  <p className="text-gray-600">contact@healthcarex.com</p>
+                  <p className="text-gray-600">info@physiocorporation.com</p>
                 </div>
               </div>
 
@@ -120,7 +135,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Phone</h4>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+91 9426836894 </p>
                 </div>
               </div>
 
@@ -131,9 +146,7 @@ const ContactSection: React.FC = () => {
                 <div>
                   <h4 className="font-semibold text-gray-900">Address</h4>
                   <p className="text-gray-600">
-                    123 Innovation Drive<br />
-                    San Francisco, CA 94105<br />
-                    United States
+                    Status Elysium,near western heights apartments,28 shop Dr chandresh Patel
                   </p>
                 </div>
               </div>

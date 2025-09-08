@@ -51,11 +51,6 @@ const TeamSection: React.FC = () => {
     setCurrentSlide((prev) => (prev - 1 + Math.ceil(teamMembers.length / 3)) % Math.ceil(teamMembers.length / 3));
   };
 
-  const getVisibleMembers = () => {
-    const startIndex = currentSlide * 3;
-    return teamMembers.slice(startIndex, startIndex + 3);
-  };
-
   return (
     <section id="team" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
