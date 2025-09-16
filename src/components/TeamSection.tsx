@@ -1,45 +1,58 @@
 import React, { useState } from 'react';
 import { Linkedin, Mail, ChevronLeft, ChevronRight } from 'lucide-react';
+import keyurImage from '../assets/keyurladani.jpeg'
 
 const TeamSection: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const teamMembers = [
     {
-      name: 'Dr. Sarah Johnson',
-      role: 'CEO & Co-Founder',
-      image: 'https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1',
-      bio: 'Former Chief Medical Officer with 15+ years in healthcare innovation and digital transformation.'
+      name: 'Keyur Ladani',
+      role: 'Software Developer',
+      image: keyurImage,
+      bio: "Software Developer with 5+ years of experience building scalable web and mobile applications, specializing in modern frameworks.",
+      linkedin:"https://www.linkedin.com/in/keyur-patel-0a01231b9/",
+      mail:'https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTFFKJpcWfzCKbHlxQFrplCMMLwrLgWrFLWJmZJXgHWlctDkccsLwhdwZfqNnntBcbnKML'
     },
     {
       name: 'Michael Chen',
       role: 'CTO & Co-Founder',
       image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1',
-      bio: 'AI researcher and former Google Health engineer specializing in medical AI and machine learning.'
+      bio: 'AI researcher and former Google Health engineer specializing in medical AI and machine learning.',
+      linkedin:"https://www.linkedin.com/in/keyur-patel-0a01231b9/",
+      mail:'https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTFFKJpcWfzCKbHlxQFrplCMMLwrLgWrFLWJmZJXgHWlctDkccsLwhdwZfqNnntBcbnKML'
     },
     {
       name: 'Dr. Emily Rodriguez',
       role: 'Head of Product',
       image: 'https://images.pexels.com/photos/4386476/pexels-photo-4386476.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1',
-      bio: 'Product strategist with extensive background in healthcare technology and user experience design.'
+      bio: 'Product strategist with extensive background in healthcare technology and user experience design.',
+      linkedin:"https://www.linkedin.com/in/keyur-patel-0a01231b9/",
+      mail:'https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTFFKJpcWfzCKbHlxQFrplCMMLwrLgWrFLWJmZJXgHWlctDkccsLwhdwZfqNnntBcbnKML'
     },
     {
       name: 'David Kim',
       role: 'VP of Engineering',
       image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1',
-      bio: 'Software architect with expertise in scalable healthcare systems and data security.'
+      bio: 'Software architect with expertise in scalable healthcare systems and data security.',
+      linkedin:"https://www.linkedin.com/in/keyur-patel-0a01231b9/",
+      mail:'https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTFFKJpcWfzCKbHlxQFrplCMMLwrLgWrFLWJmZJXgHWlctDkccsLwhdwZfqNnntBcbnKML'
     },
     {
       name: 'Dr. James Wilson',
       role: 'Chief Medical Advisor',
       image: 'https://images.pexels.com/photos/5327921/pexels-photo-5327921.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1',
-      bio: 'Renowned cardiologist and healthcare innovation expert with 20+ years of clinical experience.'
+      bio: 'Renowned cardiologist and healthcare innovation expert with 20+ years of clinical experience.',
+      linkedin:"https://www.linkedin.com/in/keyur-patel-0a01231b9/",
+      mail:'https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTFFKJpcWfzCKbHlxQFrplCMMLwrLgWrFLWJmZJXgHWlctDkccsLwhdwZfqNnntBcbnKML'
     },
     {
       name: 'Lisa Thompson',
       role: 'Head of Operations',
       image: 'https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1',
-      bio: 'Operations leader specializing in healthcare compliance and regulatory affairs.'
+      bio: 'Operations leader specializing in healthcare compliance and regulatory affairs.',
+      linkedin:"https://www.linkedin.com/in/keyur-patel-0a01231b9/",
+      mail:'https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTFFKJpcWfzCKbHlxQFrplCMMLwrLgWrFLWJmZJXgHWlctDkccsLwhdwZfqNnntBcbnKML'
     }
   ];
 
@@ -108,12 +121,12 @@ const TeamSection: React.FC = () => {
                         <p className="text-blue-600 font-medium mb-3">{member.role}</p>
                         <p className="text-gray-600 text-sm leading-relaxed mb-6">{member.bio}</p>
                         <div className="flex justify-center space-x-3">
-                          <button className="p-2 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300 hover:scale-110">
+                          <a href={member.linkedin} target='_blank' className="p-2 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300 hover:scale-110">
                             <Linkedin className="h-5 w-5" />
-                          </button>
-                          <button className="p-2 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300 hover:scale-110">
+                          </a>
+                          <a href={member.mail} target='_blank' className="p-2 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300 hover:scale-110">
                             <Mail className="h-5 w-5" />
-                          </button>
+                          </a>
                         </div>
                       </div>
                     ))}
