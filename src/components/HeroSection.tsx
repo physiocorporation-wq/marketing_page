@@ -12,7 +12,7 @@ const HeroSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center animate-in fade-in-50 slide-in-from-bottom-8 duration-1000">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight animate-in fade-in-50 slide-in-from-bottom-4 duration-1000 delay-200">
-            PhysioCorporation Prevent today<br />
+            Physio Corporation Prevent today<br />
             <span className="text-blue-600">protection for Tommorow </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed animate-in fade-in-50 slide-in-from-bottom-4 duration-1000 delay-500">
