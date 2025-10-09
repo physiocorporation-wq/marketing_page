@@ -24,7 +24,7 @@ const HowToUseSection: React.FC = () => {
     <section id="how-to-use" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-in fade-in-50 slide-in-from-bottom-4 duration-700">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">How to Use HealthCareX</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">How to Use Physio Corporation</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Getting started with our platform is simple. Follow these three easy steps to begin your healthcare transformation.
           </p>

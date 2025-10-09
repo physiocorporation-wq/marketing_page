@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
           <div className="md:col-span-2 animate-in fade-in-50 slide-in-from-bottom-4 duration-700">
             <div className="flex items-center space-x-2 mb-4 group">
               <Heart className="h-8 w-8 text-blue-400 group-hover:scale-110 transition-transform duration-300" />
-              <span className="text-2xl font-bold">HealthCareX</span>
+              <span className="text-2xl font-bold">Physio Corporation</span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6 max-w-md">
               Revolutionizing healthcare with AI-driven solutions that make quality medical care 
@@ -70,16 +70,16 @@ const Footer: React.FC = () => {
           <div className="animate-in fade-in-50 slide-in-from-bottom-4 duration-700 delay-500">
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <div className="space-y-2 text-gray-400">
-              <p>contact@healthcarex.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>123 Innovation Drive<br />San Francisco, CA 94105</p>
+              <p>info@physiocorporation.com</p>
+              <p>+91 9426836894</p>
+              <p>Status Elysium,near western heights app. 28 shop Dr. chandresh Patel</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            © 2025 HealthCareX. All rights reserved. Built with care for better healthcare.
+            © 2025 Physio Corporation. All rights reserved. Built with care for better healthcare.
           </p>
         </div>
       </div>

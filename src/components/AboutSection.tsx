@@ -14,7 +14,7 @@ const AboutSection: React.FC = () => {
           </div>
           <div>
             <h2 className="text-4xl font-bold text-gray-900 mb-6 animate-in fade-in-50 slide-in-from-right-4 duration-700">
-              About PhysioCorporation
+              About Physio Corporation
             </h2>
             <div className="space-y-6">
               <div className="animate-in fade-in-50 slide-in-from-right-4 duration-700 delay-200">

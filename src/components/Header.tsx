@@ -27,7 +27,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2 group">
             <Heart className="h-8 w-8 text-blue-600 group-hover:scale-110 transition-transform duration-300" />
-            <span className="text-2xl font-bold text-gray-900">HealthCareX</span>
+            <span className="text-2xl font-bold text-gray-900">Physio Corporation</span>
           </div>
 
           {/* Desktop Navigation */}
