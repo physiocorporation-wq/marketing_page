@@ -24,7 +24,7 @@ const TeamSection: React.FC = () => {
       role: "Head of Product",
       image: chandresh,
       bio: "Healthcare tech strategist skilled in UX and digital innovation to enhance medical product design.",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/asudev-physiotherapy-clinic?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       mail: "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTFFKJpcWfzCKbHlxQFrplCMMLwrLgWrFLWJmZJXgHWlctDkccsLwhdwZfqNnntBcbnKML",
       phone: "+91 97276 70895",
     },
