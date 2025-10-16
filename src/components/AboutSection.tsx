@@ -20,7 +20,7 @@ const AboutSection: React.FC = () => {
               <div className="animate-in fade-in-50 slide-in-from-right-4 duration-700 delay-200">
                 {/* <h3 className="text-xl font-semibold text-blue-600 mb-3">Our Mission</h3> */}
                 <p className="text-gray-600 leading-relaxed">
-                  PhysioCorporation is a forward-thinking health and wellness
+                  Physio Corporation is a forward-thinking health and wellness
                   organization committed to reshaping public health through
                   proactive care, education, and community empowerment. Founded
                   by a multidisciplinary team of directors, we bring together
@@ -34,7 +34,7 @@ const AboutSection: React.FC = () => {
                   preventive <br/> - 🌍 Culturally sensitive and inclusive <br/> - 🧠
                   Tailored to the unique needs of each community <br/><br/> Whether you're
                   seeking wellness solutions for your workplace, educational
-                  institution, or neighborhood, PhysioCorporation delivers
+                  institution, or neighborhood, Physio Corporation delivers
                   accessible, impactful services that promote lifelong health
                   and well-being.,
                 </p>
