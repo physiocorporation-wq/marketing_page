@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Menu, X, Heart } from 'lucide-react';
+import { Menu, X, } from 'lucide-react';
+import logo from '../assets/logo.png'
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,11 +24,12 @@ const Header: React.FC = () => {
   return (
     <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-28">
           {/* Logo */}
           <div className="flex items-center space-x-2 group">
-            <Heart className="h-8 w-8 text-blue-600 group-hover:scale-110 transition-transform duration-300" />
-            <span className="text-2xl font-bold text-gray-900">Physio Corporation</span>
+            {/* <Heart className="h-8 w-8 text-blue-600 group-hover:scale-110 transition-transform duration-300" />
+            <span className="text-2xl font-bold text-gray-900">Physio Corporation</span> */}
+            <img src={logo} width={200} alt='logo' />
           </div>
 
           {/* Desktop Navigation */}

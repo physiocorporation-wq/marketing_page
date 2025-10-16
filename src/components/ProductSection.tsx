@@ -10,18 +10,18 @@ const ProductSection: React.FC = () => {
     },
     {
       icon: <Users className="h-8 w-8 text-teal-600" />,
-      title: 'Patient Tracking',
-      description: 'Comprehensive patient monitoring system that tracks health metrics in real-time.'
+      title: 'User Tracking',
+      description: 'Comprehensive User monitoring system that tracks health metrics in real-time.'
     },
     {
       icon: <FileText className="h-8 w-8 text-green-600" />,
-      title: 'Smart Reports',
+      title: 'Share ur Smart Reports',
       description: 'Automated generation of detailed medical reports and health summaries.'
     },
     {
       icon: <Shield className="h-8 w-8 text-purple-600" />,
       title: 'HIPAA Compliant',
-      description: 'Enterprise-grade security ensuring all patient data is protected and compliant.'
+      description: 'Enterprise-grade security ensuring all User data is protected and compliant.'
     },
     {
       icon: <Clock className="h-8 w-8 text-orange-600" />,

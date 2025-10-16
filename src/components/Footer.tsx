@@ -1,5 +1,6 @@
 import React from 'react';
-import { Heart, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import logo from '../assets/logo.png'
 
 const Footer: React.FC = () => {
   const scrollToSection = (sectionId: string) => {
@@ -29,8 +30,9 @@ const Footer: React.FC = () => {
           {/* Logo and Description */}
           <div className="md:col-span-2 animate-in fade-in-50 slide-in-from-bottom-4 duration-700">
             <div className="flex items-center space-x-2 mb-4 group">
-              <Heart className="h-8 w-8 text-blue-400 group-hover:scale-110 transition-transform duration-300" />
-              <span className="text-2xl font-bold">Physio Corporation</span>
+              {/* <Heart className="h-8 w-8 text-blue-400 group-hover:scale-110 transition-transform duration-300" />
+              <span className="text-2xl font-bold">Physio Corporation</span> */}
+              <img src={logo} alt='logo' width={200} />
             </div>
             <p className="text-gray-400 leading-relaxed mb-6 max-w-md">
               Revolutionizing healthcare with AI-driven solutions that make quality medical care 
