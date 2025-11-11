@@ -15,7 +15,7 @@ const ProductSection: React.FC = () => {
     },
     {
       icon: <FileText className="h-8 w-8 text-green-600" />,
-      title: 'Share ur Smart Reports',
+      title: 'Share your Smart Reports',
       description: 'Automated generation of detailed medical reports and health summaries.'
     },
     {
@@ -41,7 +41,7 @@ const ProductSection: React.FC = () => {
         <div className="text-center mb-16 animate-in fade-in-50 slide-in-from-bottom-4 duration-700">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Product Overview</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the powerful features that make Physio Corporation the leading healthcare technology platform.
+            Discover the powerful features that make PhysioCorporation the leading healthcare technology platform.
           </p>
         </div>
 
