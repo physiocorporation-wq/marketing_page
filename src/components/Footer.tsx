@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
           <div className="md:col-span-2 animate-in fade-in-50 slide-in-from-bottom-4 duration-700">
             <div className="flex items-center space-x-2 mb-4 group">
               {/* <Heart className="h-8 w-8 text-blue-400 group-hover:scale-110 transition-transform duration-300" />
-              <span className="text-2xl font-bold">Physio Corporation</span> */}
+              <span className="text-2xl font-bold">PhysioCorporation</span> */}
               <img src={logo} alt='logo' width={200} />
             </div>
             <p className="text-gray-400 leading-relaxed mb-6 max-w-md">
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            © 2025 Physio Corporation. All rights reserved. Built with care for better healthcare.
+            © 2025 PhysioCorporation. All rights reserved. Built with care for better healthcare.
           </p>
         </div>
       </div>

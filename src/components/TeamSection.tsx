@@ -14,7 +14,7 @@ const TeamSection: React.FC = () => {
       name: "Manjunath D. Raikar",
       role: "Board of Director",
       image: manjunath,
-      bio: "Director with 18+ years in fitness, guiding Physio Corporation’s mission to improve community wellness.",
+      bio: "Director with 18+ years in fitness, guiding PhysioCorporation’s mission to improve community wellness.",
       linkedin: "",
       mail: "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTFFKJpcWfzCKbHlxQFrplCMMLwrLgWrFLWJmZJXgHWlctDkccsLwhdwZfqNnntBcbnKML",
       phone: "+91 72598 47188",

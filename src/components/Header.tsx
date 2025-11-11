@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Menu, X, } from 'lucide-react';
 import logo from '../assets/logo.png'
+import ExpoDetails from "../assets/ExpoDetails.pdf";
+import PdfDownload from './PdfDownload';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,7 +30,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2 group">
             {/* <Heart className="h-8 w-8 text-blue-600 group-hover:scale-110 transition-transform duration-300" />
-            <span className="text-2xl font-bold text-gray-900">Physio Corporation</span> */}
+            <span className="text-2xl font-bold text-gray-900">PhysioCorporation</span> */}
             <img src={logo} width={200} alt='logo' />
           </div>
 
@@ -44,6 +46,7 @@ const Header: React.FC = () => {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
               </button>
             ))}
+            <PdfDownload label='Expo Details' pdf={ExpoDetails} />
           </nav>
 
           {/* Mobile menu button */}
@@ -70,6 +73,7 @@ const Header: React.FC = () => {
                   {item.label}
                 </button>
               ))}
+              <PdfDownload label='Expo Details' pdf={ExpoDetails} />
             </div>
           </div>
         )}

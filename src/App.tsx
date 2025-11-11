@@ -5,7 +5,7 @@ import AboutSection from './components/AboutSection';
 import HowToUseSection from './components/HowToUseSection';
 import ProductSection from './components/ProductSection';
 import TeamSection from './components/TeamSection';
-import InvestorsSection from './components/InvestorsSection';
+// import InvestorsSection from './components/InvestorsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
@@ -18,7 +18,7 @@ function App() {
       <HowToUseSection />
       <ProductSection />
       <TeamSection />
-      <InvestorsSection />
+      {/* <InvestorsSection /> */}
       <ContactSection />
       <Footer />
     </div>
