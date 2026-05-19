@@ -26,16 +26,16 @@ const Header: React.FC = () => {
   return (
     <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-28">
+        <div className="flex items-center justify-between h-20 sm:h-24 lg:h-28 gap-4">
           {/* Logo */}
           <div className="flex items-center space-x-2 group">
             {/* <Heart className="h-8 w-8 text-blue-600 group-hover:scale-110 transition-transform duration-300" />
             <span className="text-2xl font-bold text-gray-900">PhysioCorporation</span> */}
-            <img src={logo} width={200} alt='logo' />
+            <img src={logo} alt="logo" className="w-36 sm:w-44 lg:w-52 h-auto" />
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex items-center space-x-6 lg:space-x-8">
             {navItems.map((item) => (
               <button
                 key={item.id}
@@ -63,12 +63,12 @@ const Header: React.FC = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden animate-in slide-in-from-top-2 duration-300">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
+            <div className="max-h-[calc(100vh-5rem)] overflow-y-auto px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
               {navItems.map((item) => (
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="block w-full text-left px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 font-medium transition-all duration-300 rounded-lg"
+                  className="block w-full text-left px-3 py-3 text-gray-700 hover:text-blue-600 hover:bg-blue-50 font-medium transition-all duration-300 rounded-lg"
                 >
                   {item.label}
                 </button>

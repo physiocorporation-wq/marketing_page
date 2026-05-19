@@ -25,18 +25,18 @@ const ContactSection: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gray-50">
+    <section id="contact" className="py-16 sm:py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-in fade-in-50 slide-in-from-bottom-4 duration-700">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Contact Us</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Contact Us</h2>
+          <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto">
             Ready to transform your healthcare experience? Get in touch with our team today.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-8 sm:gap-12">
           {/* Contact Form */}
-          <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-500 animate-in fade-in-50 slide-in-from-left-4 duration-700 delay-300">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition-shadow duration-500 animate-in fade-in-50 slide-in-from-left-4 duration-700 delay-300">
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">Send us a message</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -55,13 +55,13 @@ const ContactSection: React.FC = () => {
                 />
               </div>
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
                   Your Mobile Number
                 </label>
                 <input
-                  type="text"
-                  id="name"
-                  name="name"
+                  type="tel"
+                  id="phone"
+                  name="phone"
                   value={formData.phone}
                   onChange={handleChange}
                   required

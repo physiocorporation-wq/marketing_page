@@ -66,11 +66,11 @@ const services = [
 // --- REUSABLE SERVICE CARD ---
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const ServiceCard = ({ name, Icon, color, bgColor }: any) => (
-  <div className="flex flex-col items-center min-w-[220px] mx-3 p-6 text-center border border-gray-100 rounded-xl shadow-md bg-white hover:shadow-xl transition-all duration-300">
+  <div className="flex flex-col my-4 items-center min-w-[230px] sm:min-w-[220px] mx-2 sm:mx-3 p-4 sm:p-6 text-center border border-gray-100 rounded-xl shadow-md bg-white hover:shadow-xl transition-all duration-300">
     <div className={`p-4 rounded-full mb-4 ${bgColor} ${color}`}>
-      <Icon className="w-10 h-10" />
+      <Icon className="w-8 h-8 sm:w-10 sm:h-10" />
     </div>
-    <h3 className="text-lg font-semibold text-gray-800 tracking-tight leading-snug">
+    <h3 className="text-base sm:text-lg font-semibold text-gray-800 tracking-tight leading-snug">
       {name}
     </h3>
   </div>
@@ -82,7 +82,7 @@ const ServiceCardCom = () => {
   const repeatedServices = [...services, ...services];
 
   return (
-    <div className="p-6 sm:p-10 font-sans overflow-hidden">
+    <div className="px-0 sm:px-0 py-0 sm:py-10 font-sans overflow-hidden">
       {/* Infinite Scrolling Row */}
       <div className="relative w-full overflow-hidden">
         <motion.div

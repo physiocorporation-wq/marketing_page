@@ -5,6 +5,7 @@ import AboutSection from './components/AboutSection';
 import HowToUseSection from './components/HowToUseSection';
 import ProductSection from './components/ProductSection';
 import TeamSection from './components/TeamSection';
+import InstagramSection from './components/InstagramSection';
 // import InvestorsSection from './components/InvestorsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
@@ -19,6 +20,7 @@ function App() {
       <ProductSection />
       <TeamSection />
       {/* <InvestorsSection /> */}
+      <InstagramSection />
       <ContactSection />
       <Footer />
     </div>

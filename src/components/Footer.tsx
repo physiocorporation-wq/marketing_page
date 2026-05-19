@@ -18,21 +18,21 @@ const Footer: React.FC = () => {
 
   const socialLinks = [
     { icon: <Facebook className="h-5 w-5" />, href: 'https://www.facebook.com/share/1Ayi5gkU77/' },
-    { icon: <Twitter className="h-5 w-5" />, href: '#' },
-    { icon: <Linkedin className="h-5 w-5" />, href: '#' },
-    { icon: <Instagram className="h-5 w-5" />, href: 'https://www.instagram.com/physiocorporation?utm_source=qr&igsh=OWhhanI2azQ2OHFk' }
+    { icon: <Twitter className="h-5 w-5" />, href: 'https://x.com/' },
+    { icon: <Linkedin className="h-5 w-5" />, href: 'https://in.linkedin.com/' },
+    { icon: <Instagram className="h-5 w-5" />, href: 'https://www.instagram.com/physiocorporation' }
   ];
 
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid gap-10 md:grid-cols-4 md:gap-8">
           {/* Logo and Description */}
           <div className="md:col-span-2 animate-in fade-in-50 slide-in-from-bottom-4 duration-700">
             <div className="flex items-center space-x-2 mb-4 group">
               {/* <Heart className="h-8 w-8 text-blue-400 group-hover:scale-110 transition-transform duration-300" />
               <span className="text-2xl font-bold">PhysioCorporation</span> */}
-              <img src={logo} alt='logo' width={200} />
+              <img src={logo} alt="logo" className="w-40 sm:w-48 h-auto" />
             </div>
             <p className="text-gray-400 leading-relaxed mb-6 max-w-md">
               Revolutionizing healthcare with AI-driven solutions that make quality medical care 
@@ -43,6 +43,8 @@ const Footer: React.FC = () => {
                 <a
                   key={index}
                   href={social.href}
+                  target="_blank"
+                  rel="noreferrer"
                   className="p-2 bg-gray-800 rounded-lg hover:bg-blue-600 hover:scale-110 transition-all duration-300"
                 >
                   {social.icon}

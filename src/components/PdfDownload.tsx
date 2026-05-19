@@ -17,7 +17,7 @@ const PdfDownload: React.FC<Props> = (props) => {
         onClick={() => {
           handleDownload();
         }}
-        className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl animate-in fade-in-50 slide-in-from-bottom-4 duration-1000 delay-700 group"
+        className="inline-flex w-full sm:w-auto items-center justify-center px-5 sm:px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl animate-in fade-in-50 slide-in-from-bottom-4 duration-1000 delay-700 group"
       >
         {props.label}
       </button>
