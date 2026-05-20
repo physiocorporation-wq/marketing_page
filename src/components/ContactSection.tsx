@@ -146,7 +146,8 @@ const ContactSection: React.FC = () => {
                 <div>
                   <h4 className="font-semibold text-gray-900">Address</h4>
                   <p className="text-gray-600">
-                    Status Elysium,near western heights apartments,28 shop Dr chandresh Patel
+                    <strong>Status Elysium</strong><br />
+                    Shop No. 28, Ground Floor, Near Western Heights Aapartments, Jagatpur Road, Gota, Ahmedabad - 382481
                   </p>
                 </div>
               </div>

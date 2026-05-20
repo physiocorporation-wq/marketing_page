@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
               <img src={logo} alt="logo" className="w-40 sm:w-48 h-auto" />
             </div>
             <p className="text-gray-400 leading-relaxed mb-6 max-w-md">
-              Revolutionizing healthcare with AI-driven solutions that make quality medical care 
+              Revolutionizing healthcare with AI-driven solutions that make quality medical care
               accessible, efficient, and personalized for everyone.
             </p>
             <div className="flex space-x-4">
@@ -76,7 +76,8 @@ const Footer: React.FC = () => {
             <div className="space-y-2 text-gray-400">
               <p>info@physiocorporation.com</p>
               <p>+91 9426836894</p>
-              <p>Status Elysium,near western heights app. 28 shop Dr. chandresh Patel</p>
+              <p> <strong>Status Elysium</strong><br />
+                Shop No. 28, Ground Floor, Near Western Heights Aapartments, Jagatpur Road, Gota, Ahmedabad - 382481</p>
             </div>
           </div>
         </div>
