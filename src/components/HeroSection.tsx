@@ -21,7 +21,7 @@ const HeroSection: React.FC = () => {
         <div className="text-center animate-in fade-in-50 slide-in-from-bottom-8 duration-1000">
           {/* Heading */}
           <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight animate-in fade-in-50 slide-in-from-bottom-4 duration-1000 delay-200 px-2">
-            PhysioCorporation Prevent Today
+            PhysioCorporation Prevent Todayy 
             <br className="hidden sm:block" />
             <span className="sm:inline block mt-2 sm:mt-0"> </span>
             <span className="text-blue-600">Protection For Tomorrow</span>
